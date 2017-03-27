@@ -54,6 +54,7 @@
     <ClInclude Include="TAObj.h" />
     <ClInclude Include="TAPair.h" />
     <ClInclude Include="TAPairType.h" />
+    <ClInclude Include="TAPairValue.h" />
     <ClInclude Include="TAPlus.h" />
     <ClInclude Include="TAPrimitive.h" />
     <ClInclude Include="TAProduct.h" />
@@ -72,6 +73,9 @@
     <ClCompile Include="TAObj.cpp" />
     <ClCompile Include="TAType.cpp" />
     <ClCompile Include="TAValue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{00AA69F7-9488-409E-BC16-B72A508A5603}</ProjectGuid>

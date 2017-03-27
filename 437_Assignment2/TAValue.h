@@ -5,8 +5,11 @@ using namespace std;
 
 class TAType;
 class TAValueBase; 
-class TAArrayValue; 
+class TAArrayValue;
+class TAPairValue;
+class TAPairType;
 class TAArrayType;
+class TATerm;
 
 // self encapsulating object
 // wrapper 
@@ -39,13 +42,16 @@ struct TAValue : public TAObj {
   virtual int getInt() const ;
   virtual double getDouble() const ;
   virtual TAValue * getArray() const ;
-  virtual TAValue * getPair() const ;
+  virtual std::pair<TAValue, TAValue> * getPair() const ;
+  virtual TAValue getFirst() const;
+  virtual TAValue getSecond() const;
 
   virtual void set(bool v) ;
   virtual void set(int v) ;
   virtual void set(double v) ;
 //  virtual void set(TAValue * vs, unsigned int N);
   virtual void set(const TAArrayType & t);
+  virtual void set(const TAPairType & t);
 
   virtual void set(const TAValue & v) ;
   virtual void cloneBaseType(const TAValue & v);

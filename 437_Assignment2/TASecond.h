@@ -11,15 +11,15 @@ struct TASecond : public TAUnaryOp {
   }
 
   virtual TAValue & evaluateExecute(TAValue & v) {
-    return getPair().term2.evaluate();
+    return getPair().getValue().getSecond();
   }
 
   virtual void printState(ostream & os) const {
-    getPair().term2.printState(os);
+    getPair().getValue().getSecond().print(os);
   }
 
   virtual const TAType & getType() const {
-    return getPair().term2.getType();
+	 return getPair().getValue().getSecond().getType();
   };
 
   virtual const string operatorSign () const {

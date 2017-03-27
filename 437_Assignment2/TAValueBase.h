@@ -12,7 +12,7 @@ struct TAValueBase : public TAObj {
   virtual int getInt() const {throw 0; return 0;}
   virtual double getDouble() const {throw 0; return 0.0;}
   virtual TAValue * getArray() const {throw 0; return 0;}
-  virtual TAValue * getPair() const {throw 0; return 0;}
+  virtual std::pair<TAValue,TAValue>*  getPair() const {throw 0; return 0;}
 
   virtual void setBool(bool v) { throw 1;}
   virtual void setInt(int v) {throw 1;}
