@@ -3,10 +3,10 @@
 #include <iostream>
 using namespace std;
 
-class TAType;
-class TAValueBase; 
-class TAArrayValue; 
-class TAArrayType;
+struct TAType;
+struct TAValueBase; 
+struct TAArrayValue; 
+struct TAArrayType;
 
 // self encapsulating object
 // wrapper 

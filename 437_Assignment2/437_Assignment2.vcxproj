@@ -33,6 +33,7 @@
     <ClInclude Include="TABoolValue.h" />
     <ClInclude Include="TACeiling.h" />
     <ClInclude Include="TADivision.h" />
+    <ClInclude Include="TADomain.h" />
     <ClInclude Include="TADouble.h" />
     <ClInclude Include="TADoubleType.h" />
     <ClInclude Include="TADoubleValue.h" />
@@ -59,9 +60,11 @@
     <ClInclude Include="TAProduct.h" />
     <ClInclude Include="TARemainder.h" />
     <ClInclude Include="TASecond.h" />
+    <ClInclude Include="TASetDomain.h" />
     <ClInclude Include="TASize.h" />
     <ClInclude Include="TATerm.h" />
     <ClInclude Include="TAType.h" />
+    <ClInclude Include="TATypeDomain.h" />
     <ClInclude Include="TAUMinus.h" />
     <ClInclude Include="TAUnaryOp.h" />
     <ClInclude Include="TAValue.h" />
@@ -69,9 +72,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TADomain.cpp" />
     <ClCompile Include="TAObj.cpp" />
+    <ClCompile Include="TASetDomain.cpp" />
     <ClCompile Include="TAType.cpp" />
     <ClCompile Include="TAValue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{00AA69F7-9488-409E-BC16-B72A508A5603}</ProjectGuid>

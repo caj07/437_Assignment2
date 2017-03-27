@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-class TAValue;
+struct TAValue;
 
 struct TATerm : public TAObj {
   TAValue val;

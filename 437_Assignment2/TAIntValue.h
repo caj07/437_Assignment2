@@ -26,10 +26,10 @@ struct TAIntValue : public TAValueBase {
   }
   virtual void assignCeiling(TAValue & op) {
     //TODO: this should be fixed later
-    iValue = op.getValue().getDouble() + 1;
+    iValue = static_cast<int>(ceil(op.getValue().getDouble()));
   }
   virtual void assignFloor(TAValue & op) {
-    iValue = op.getValue().getDouble();
+    iValue = static_cast<int>(op.getValue().getDouble());
   }
 
   virtual void print(ostream & os) const {
