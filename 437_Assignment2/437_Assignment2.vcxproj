@@ -18,6 +18,61 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ta.h" />
+    <ClInclude Include="TAArray.h" />
+    <ClInclude Include="TAArrayAccess.h" />
+    <ClInclude Include="TAArrayType.h" />
+    <ClInclude Include="TAArrayValue.h" />
+    <ClInclude Include="TABiggerThan.h" />
+    <ClInclude Include="TABiggerThanEq.h" />
+    <ClInclude Include="TABinaryOp.h" />
+    <ClInclude Include="TABool.h" />
+    <ClInclude Include="TABoolBinaryOp.h" />
+    <ClInclude Include="TABoolType.h" />
+    <ClInclude Include="TABoolValue.h" />
+    <ClInclude Include="TACeiling.h" />
+    <ClInclude Include="TADivision.h" />
+    <ClInclude Include="TADouble.h" />
+    <ClInclude Include="TADoubleType.h" />
+    <ClInclude Include="TADoubleValue.h" />
+    <ClInclude Include="TAEqual.h" />
+    <ClInclude Include="TAEquiv.h" />
+    <ClInclude Include="TAFirst.h" />
+    <ClInclude Include="TAFloor.h" />
+    <ClInclude Include="TAImplies.h" />
+    <ClInclude Include="TAInt.h" />
+    <ClInclude Include="TAIntType.h" />
+    <ClInclude Include="TAIntValue.h" />
+    <ClInclude Include="TALAnd.h" />
+    <ClInclude Include="TALessThan.h" />
+    <ClInclude Include="TALessThanEq.h" />
+    <ClInclude Include="TALNot.h" />
+    <ClInclude Include="TALOr.h" />
+    <ClInclude Include="TAMinus.h" />
+    <ClInclude Include="TANamedObj.h" />
+    <ClInclude Include="TAObj.h" />
+    <ClInclude Include="TAPair.h" />
+    <ClInclude Include="TAPairType.h" />
+    <ClInclude Include="TAPlus.h" />
+    <ClInclude Include="TAPrimitive.h" />
+    <ClInclude Include="TAProduct.h" />
+    <ClInclude Include="TARemainder.h" />
+    <ClInclude Include="TASecond.h" />
+    <ClInclude Include="TASize.h" />
+    <ClInclude Include="TATerm.h" />
+    <ClInclude Include="TAType.h" />
+    <ClInclude Include="TAUMinus.h" />
+    <ClInclude Include="TAUnaryOp.h" />
+    <ClInclude Include="TAValue.h" />
+    <ClInclude Include="TAValueBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TAObj.cpp" />
+    <ClCompile Include="TAType.cpp" />
+    <ClCompile Include="TAValue.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{00AA69F7-9488-409E-BC16-B72A508A5603}</ProjectGuid>
     <RootNamespace>My437_Assignment2</RootNamespace>
@@ -117,58 +172,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="TA.hpp" />
-    <ClInclude Include="TA\TAPrimitive.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TAArray.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TAArrayAccess.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TABool.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TABool\TAAnd.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TABool\TAEquals.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TABool\TALessThan.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TABool\TAMoreThan.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TABool\TANot.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TABool\TAOr.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TABool\TAXor.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TADouble.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TAInt.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TAInt\TACeiling.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TAInt\TAConstant.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TAInt\TAFloor.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TANumberOperations\TADivide.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TANumberOperations\TAMinus.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TANumberOperations\TAMultiply.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TANumber\TANumberOperations\TAPlus.hpp" />
-    <ClInclude Include="TA\TAPrimitive\TAPair.hpp" />
-    <ClInclude Include="Type.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="TA.cpp" />
-    <ClCompile Include="TA\TAPrimitive.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TAArray.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TAArrayAccess.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TABool.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TABool\TAAnd.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TABool\TAEquals.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TABool\TALessThan.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TABool\TAMoreThan.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TABool\TANot.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TABool\TAOr.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TABool\TAXor.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TADouble.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TAInt.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TAInt\TACeiling.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TAInt\TAConstant.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TAInt\TAFloor.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TANumberOperations\TADivide.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TANumberOperations\TAMinus.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TANumberOperations\TAMultiply.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TANumber\TANumberOperations\TAPlus.cpp" />
-    <ClCompile Include="TA\TAPrimitive\TAPair.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

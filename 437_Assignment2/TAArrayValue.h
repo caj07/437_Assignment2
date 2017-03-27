@@ -13,7 +13,7 @@ struct TAArrayValue : public TAValueBase {
   }
   void initValuesArray() {
     values = new TAValue[type.cap];
-    for(int i =0; i < type.cap; i++) {
+    for(unsigned int i =0; i < type.cap; i++) {
       const TAValue & def = type.baseType.getDefaultValue();
       values[i].set(def);
     }
@@ -24,7 +24,7 @@ struct TAArrayValue : public TAValueBase {
   }
 
   virtual void set(TAValue * vs ) {
-    for(int i =0; i < type.cap; i++) {
+    for(unsigned int i =0; i < type.cap; i++) {
       values[i].set(vs[i]);
     }
   }
@@ -46,7 +46,7 @@ struct TAArrayValue : public TAValueBase {
   }
 
   virtual void print(ostream & os) const {
-    for(int i=0; i< type.cap; i++){
+    for(unsigned int i=0; i< type.cap; i++){
       values[i].print(os);
       os << " ";
     }

@@ -15,150 +15,159 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Type.hpp">
+    <ClInclude Include="TAValueBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive.hpp">
+    <ClInclude Include="TAUnaryOp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TABool\TAAnd.hpp">
+    <ClInclude Include="TAUMinus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TABool\TAEquals.hpp">
+    <ClInclude Include="TAType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TABool\TALessThan.hpp">
+    <ClInclude Include="TASize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TABool\TAMoreThan.hpp">
+    <ClInclude Include="TASecond.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TABool\TANot.hpp">
+    <ClInclude Include="TARemainder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TABool\TAOr.hpp">
+    <ClInclude Include="TAProduct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TABool\TAXor.hpp">
+    <ClInclude Include="TAPlus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TAInt\TACeiling.hpp">
+    <ClInclude Include="TAPairType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TAInt\TAConstant.hpp">
+    <ClInclude Include="TAPair.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TAInt\TAFloor.hpp">
+    <ClInclude Include="TAMinus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TANumberOperations\TADivide.hpp">
+    <ClInclude Include="TALOr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TANumberOperations\TAMinus.hpp">
+    <ClInclude Include="TALNot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TANumberOperations\TAMultiply.hpp">
+    <ClInclude Include="TALessThanEq.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TANumberOperations\TAPlus.hpp">
+    <ClInclude Include="TALessThan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TADouble.hpp">
+    <ClInclude Include="TALAnd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber\TAInt.hpp">
+    <ClInclude Include="TAIntValue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TAArray.hpp">
+    <ClInclude Include="TAIntType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TAArrayAccess.hpp">
+    <ClInclude Include="TAInt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TABool.hpp">
+    <ClInclude Include="TAImplies.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TANumber.hpp">
+    <ClInclude Include="TAFloor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA\TAPrimitive\TAPair.hpp">
+    <ClInclude Include="TAFirst.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TA.hpp">
+    <ClInclude Include="TAEquiv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAEqual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TADoubleValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TADoubleType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TADouble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TADivision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TACeiling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TABoolType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TABoolBinaryOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TABinaryOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TABiggerThanEq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TABiggerThan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAArrayValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAArrayType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAArrayAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TABool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TANamedObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TATerm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TABoolValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAObj.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TA\TAPrimitive.cpp">
+    <ClCompile Include="TAValue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TABool\TAAnd.cpp">
+    <ClCompile Include="TAObj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TABool\TAEquals.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TABool\TALessThan.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TABool\TAMoreThan.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TABool\TANot.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TABool\TAOr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TABool\TAXor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TAInt\TACeiling.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TAInt\TAConstant.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TAInt\TAFloor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TANumberOperations\TADivide.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TANumberOperations\TAMinus.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TANumberOperations\TAMultiply.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TANumberOperations\TAPlus.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TADouble.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber\TAInt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TAArray.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TAArrayAccess.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TABool.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TANumber.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA\TAPrimitive\TAPair.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TA.cpp">
+    <ClCompile Include="TAType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

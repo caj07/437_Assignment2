@@ -2,8 +2,7 @@
 #include "ta.h"
 using namespace std;
 
-int
-main(int argc, char ** argv) {
+int main(int argc, char ** argv) {
 
   cout << "welcome to the type architecture program." << endl;
 
