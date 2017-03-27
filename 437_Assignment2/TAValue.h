@@ -7,13 +7,9 @@ struct TAType;
 struct TAValueBase; 
 struct TAArrayValue; 
 struct TAArrayType;
-class TAType;
-class TAValueBase; 
-class TAArrayValue;
-class TAPairValue;
-class TAPairType;
-class TAArrayType;
-class TATerm;
+struct TAPairValue;
+struct TAPairType;
+struct TATerm;
 
 // self encapsulating object
 // wrapper 
