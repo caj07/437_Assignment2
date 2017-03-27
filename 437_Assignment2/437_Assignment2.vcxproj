@@ -56,6 +56,7 @@
     <ClInclude Include="TAObj.h" />
     <ClInclude Include="TAPair.h" />
     <ClInclude Include="TAPairType.h" />
+    <ClInclude Include="TAPairValue.h" />
     <ClInclude Include="TAPlus.h" />
     <ClInclude Include="TAPrimitive.h" />
     <ClInclude Include="TAProduct.h" />
