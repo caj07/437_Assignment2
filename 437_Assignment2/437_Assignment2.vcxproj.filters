@@ -165,6 +165,9 @@
     <ClInclude Include="TATypeDomain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TAIntTypeDomain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -183,6 +186,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TASetDomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TATypeDomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAIntTypeDomain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -44,6 +44,7 @@
     <ClInclude Include="TAImplies.h" />
     <ClInclude Include="TAInt.h" />
     <ClInclude Include="TAIntType.h" />
+    <ClInclude Include="TAIntTypeDomain.h" />
     <ClInclude Include="TAIntValue.h" />
     <ClInclude Include="TALAnd.h" />
     <ClInclude Include="TALessThan.h" />
@@ -73,9 +74,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TADomain.cpp" />
+    <ClCompile Include="TAIntTypeDomain.cpp" />
     <ClCompile Include="TAObj.cpp" />
     <ClCompile Include="TASetDomain.cpp" />
     <ClCompile Include="TAType.cpp" />
+    <ClCompile Include="TATypeDomain.cpp" />
     <ClCompile Include="TAValue.cpp" />
   </ItemGroup>
   <ItemGroup>
