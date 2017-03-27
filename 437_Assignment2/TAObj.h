@@ -1,7 +1,7 @@
 #pragma once 
 #include <assert.h> // used for calls to assert function
 
-class TAType;
+struct TAType;
 
 struct TAObj {
   unsigned int id; // each object has a unique id. 

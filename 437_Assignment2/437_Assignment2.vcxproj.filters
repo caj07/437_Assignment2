@@ -156,7 +156,13 @@
     <ClInclude Include="TAObj.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TAPairValue.h">
+    <ClInclude Include="TADomain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TASetDomain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TATypeDomain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -173,6 +179,15 @@
     <ClCompile Include="TAType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TADomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TASetDomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

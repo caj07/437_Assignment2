@@ -3,6 +3,10 @@
 #include <iostream>
 using namespace std;
 
+struct TAType;
+struct TAValueBase; 
+struct TAArrayValue; 
+struct TAArrayType;
 class TAType;
 class TAValueBase; 
 class TAArrayValue;

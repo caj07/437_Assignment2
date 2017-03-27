@@ -29,7 +29,7 @@ struct TAArrayValue : public TAValueBase {
     }
   }
 
-  virtual void setAt(TAValue & v, int idx) {
+  virtual void setAt(TAValue & v, unsigned int idx) {
     assert(0 <= idx);
     assert(idx < type.cap);
     values[idx].set(v);
