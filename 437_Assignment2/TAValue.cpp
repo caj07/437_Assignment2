@@ -41,6 +41,12 @@ TAValue::getArrayValue() const {
 	return (TAArrayValue &)getValue();
 }
 
+TAPairValue &
+TAValue::getPairValue() const {
+	assert(isPair());
+	return (TAPairValue &)getValue();
+}
+
 const TAType &
 TAValue::getType() const {
 	return getValue().getType();

@@ -82,9 +82,6 @@
     <ClCompile Include="TATypeDomain.cpp" />
     <ClCompile Include="TAValue.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{00AA69F7-9488-409E-BC16-B72A508A5603}</ProjectGuid>
     <RootNamespace>My437_Assignment2</RootNamespace>

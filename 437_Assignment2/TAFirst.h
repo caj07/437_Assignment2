@@ -1,4 +1,5 @@
 #include "TAUnaryOp.h"
+#include "TAPairValue.h"
 
 struct TAFirst : public TAUnaryOp {
   TAFirst (TAPair & pair) : 
@@ -11,15 +12,15 @@ struct TAFirst : public TAUnaryOp {
   }
 
   virtual TAValue & evaluateExecute(TAValue & v) {
-	  return getPair().getValue().getFirst();
+	  return getPair().getValue().getPairValue().getFirst();
   }
 
   virtual void printState(ostream & os) const {
-	  getPair().getValue().getFirst().print(os);
+	  getPair().getValue().getPairValue().getFirst().print(os);
   }
 
   virtual const TAType & getType() const {
-    return getPair().getValue().getFirst().getType();
+    return getPair().getValue().getPairValue().getFirst().getType();
   };
 
   virtual const string operatorSign () const {

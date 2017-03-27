@@ -10,7 +10,7 @@ public:
 	const TAPairType & type;
 
 	TAPairValue(const TAPairType & t) :
-		type(t), values(type.baseType1.getDefaultValue(), type.baseType1.getDefaultValue())
+		type(t)
 	{
 		initValuesPair();		
 	}

@@ -29,6 +29,7 @@ struct TAValue : public TAObj {
   //provides a prettier reference interface to theValue
   TAValueBase & getValue() const;
   TAArrayValue & getArrayValue() const;
+  TAPairValue & getPairValue() const;
 
   virtual const TAType & getType() const;
 

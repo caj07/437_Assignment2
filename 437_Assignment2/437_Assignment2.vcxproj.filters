@@ -168,6 +168,9 @@
     <ClInclude Include="TAIntTypeDomain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TAPairValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -194,9 +197,6 @@
     <ClCompile Include="TAIntTypeDomain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
