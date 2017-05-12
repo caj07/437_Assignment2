@@ -204,6 +204,12 @@
     <ClInclude Include="TAAssignmentStatement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TAConditionalStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TALoopStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -264,6 +270,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TAAssignmentStatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAConditionalStatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TALoopStatement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

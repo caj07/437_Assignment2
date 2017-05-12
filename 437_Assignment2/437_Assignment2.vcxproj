@@ -36,6 +36,7 @@
     <ClInclude Include="TABoolTypeDomain.h" />
     <ClInclude Include="TABoolValue.h" />
     <ClInclude Include="TACeiling.h" />
+    <ClInclude Include="TAConditionalStatement.h" />
     <ClInclude Include="TADivision.h" />
     <ClInclude Include="TADomain.h" />
     <ClInclude Include="TADouble.h" />
@@ -59,6 +60,7 @@
     <ClInclude Include="TALessThan.h" />
     <ClInclude Include="TALessThanEq.h" />
     <ClInclude Include="TALNot.h" />
+    <ClInclude Include="TALoopStatement.h" />
     <ClInclude Include="TALOr.h" />
     <ClInclude Include="TAMinus.h" />
     <ClInclude Include="TANamedObj.h" />
@@ -91,12 +93,14 @@
     <ClCompile Include="TABool.cpp" />
     <ClCompile Include="TABoolBinaryOp.cpp" />
     <ClCompile Include="TABoolTypeDomain.cpp" />
+    <ClCompile Include="TAConditionalStatement.cpp" />
     <ClCompile Include="TADomain.cpp" />
     <ClCompile Include="TADoubleTypeDomain.cpp" />
     <ClCompile Include="TAEmptyStatement.cpp" />
     <ClCompile Include="TAForAll.cpp" />
     <ClCompile Include="TAForEach.cpp" />
     <ClCompile Include="TAIntTypeDomain.cpp" />
+    <ClCompile Include="TALoopStatement.cpp" />
     <ClCompile Include="TAObj.cpp" />
     <ClCompile Include="TASetDomain.cpp" />
     <ClCompile Include="TAStatement.cpp" />
