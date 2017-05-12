@@ -1,5 +1,6 @@
 #pragma once 
 #include "TATerm.h"
+#include <string>
 
 struct TABinaryOp : public TATerm {
   TATerm & operand1;

@@ -40,3 +40,8 @@
 #include "TAPair.h"
 #include "TAFirst.h"
 #include "TASecond.h"
+
+#include "TAIntTypeDomain.h"
+#include "TADoubleTypeDomain.h"
+#include "TABoolTypeDomain.h"
+#include "TASetDomain.h"

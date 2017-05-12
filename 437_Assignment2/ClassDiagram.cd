@@ -1,336 +1,399 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TABoolTypeDomain" Collapsed="true">
+    <Position X="89.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAQAAAAAAIAAAAAAAAQAAQIAAAA=</HashCode>
+      <FileName>TABoolTypeDomain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TADomain" Collapsed="true">
+    <Position X="87.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAgAAAAAAAAAAAAQBAAAAAAAAAAQIAAAA=</HashCode>
+      <FileName>TADomain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TADoubleTypeDomain" Collapsed="true">
+    <Position X="86.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAQAAAAAAAAAAAAQAAYAAQIBAAA=</HashCode>
+      <FileName>TADoubleTypeDomain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TAForAll" Collapsed="true">
+    <Position X="34.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAFAAAAAAAAAAAQQIAAAAAAAAABAAAIAA=</HashCode>
+      <FileName>TAForAll.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TAFormula" Collapsed="true">
+    <Position X="25.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TAFormula.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TAIntTypeDomain" Collapsed="true">
+    <Position X="88.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAgQAAAAAAAAAAAAQAAYAAQIAAAA=</HashCode>
+      <FileName>TAIntTypeDomain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TASetDomain" Collapsed="true">
+    <Position X="89" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAIAAAQAAAAAAAAAAAAAQIAAgA=</HashCode>
+      <FileName>TASetDomain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TATypeDomain" Collapsed="true">
+    <Position X="86.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TATypeDomain.h</FileName>
+    </TypeIdentifier>
+  </Class>
   <Struct Name="TAValueBase" Collapsed="true">
-    <Position X="6.75" Y="1.75" Width="1.5" />
+    <Position X="11.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AuQIASAAgACoAAFAoAYUiAAAAIgpCRICAAEAMAACQAA=</HashCode>
       <FileName>TAValueBase.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAUnaryOp" Collapsed="true">
-    <Position X="19.25" Y="3.25" Width="1.5" />
+    <Position X="24.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAgAAAAAAAAAAAAABAAABAgIAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TAUnaryOp.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAUMinus" Collapsed="true">
-    <Position X="17" Y="4.75" Width="1.5" />
+    <Position X="22" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAACgAAAAAAAAA=</HashCode>
       <FileName>TAUMinus.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAType" Collapsed="true">
-    <Position X="80" Y="1.75" Width="1.5" />
+    <Position X="80.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEACAAAAABgAAAAwAgAAAAAAAABAAAIAA=</HashCode>
       <FileName>TAType.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TASize" Collapsed="true">
-    <Position X="26" Y="4.75" Width="1.5" />
+    <Position X="31" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAwAAAAQACAAAAAAAAAA=</HashCode>
       <FileName>TASize.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TASecond" Collapsed="true">
-    <Position X="12.5" Y="4.75" Width="1.5" />
+    <Position X="17.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAABAAAAAAAwgAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TASecond.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TARemainder" Collapsed="true">
-    <Position X="39.5" Y="4.75" Width="1.5" />
+    <Position X="44.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TARemainder.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAProduct" Collapsed="true">
-    <Position X="41.75" Y="4.75" Width="1.5" />
+    <Position X="46.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TAProduct.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAPlus" Collapsed="true">
-    <Position X="46.25" Y="4.75" Width="1.5" />
+    <Position X="51.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TAPlus.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAPairType" Collapsed="true">
-    <Position X="80" Y="3.25" Width="1.5" />
+    <Position X="84.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAAAAAAIAA=</HashCode>
       <FileName>TAPairType.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAPair" Collapsed="true">
-    <Position X="35" Y="4.75" Width="1.5" />
+    <Position X="40" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABAAAAAAAAAAAAAAJAAAAAAAQIBAAIAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAJAAAAAAAQIBAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TAPair.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAMinus" Collapsed="true">
-    <Position X="71" Y="4.75" Width="1.5" />
+    <Position X="76" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TAMinus.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TALOr" Collapsed="true">
-    <Position X="50.75" Y="6.25" Width="1.5" />
+    <Position X="55.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAEAA=</HashCode>
       <FileName>TALOr.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TALNot" Collapsed="true">
-    <Position X="14.75" Y="4.75" Width="1.5" />
+    <Position X="19.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TALNot.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TALessThanEq" Collapsed="true">
-    <Position X="59.75" Y="6.25" Width="1.5" />
+    <Position X="64.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEACAAAAAAAAAA=</HashCode>
       <FileName>TALessThanEq.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TALessThan" Collapsed="true">
-    <Position X="62" Y="6.25" Width="1.5" />
+    <Position X="67" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAgAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TALessThan.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TALAnd" Collapsed="true">
-    <Position X="64.25" Y="6.25" Width="1.5" />
+    <Position X="69.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAABACAAAAAAAAAA=</HashCode>
       <FileName>TALAnd.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAIntValue" Collapsed="true">
-    <Position X="8" Y="3.25" Width="1.5" />
+    <Position X="13" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AMQAQCAAAACAAAAAAAIUigAAAYAIARIAAAAAMAAAQAA=</HashCode>
       <FileName>TAIntValue.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAIntType" Collapsed="true">
-    <Position X="84.5" Y="3.25" Width="1.5" />
+    <Position X="82.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAIAA=</HashCode>
       <FileName>TAIntType.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAInt" Collapsed="true">
-    <Position X="28.25" Y="6.25" Width="1.5" />
+    <Position X="33.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAgAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TAInt.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAImplies" Collapsed="true">
-    <Position X="55.25" Y="6.25" Width="1.5" />
+    <Position X="60.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAABAAACAAAAAAAAAA=</HashCode>
       <FileName>TAImplies.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAFloor" Collapsed="true">
-    <Position X="19.25" Y="4.75" Width="1.5" />
+    <Position X="24.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TAFloor.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAFirst" Collapsed="true">
-    <Position X="21.5" Y="4.75" Width="1.5" />
+    <Position X="26.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAABAAAAAABAAAAAAAwgAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TAFirst.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAEquiv" Collapsed="true">
-    <Position X="66.5" Y="6.25" Width="1.5" />
+    <Position X="71.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAgAAAAAAAA=</HashCode>
       <FileName>TAEquiv.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAEqual" Collapsed="true">
-    <Position X="68.75" Y="6.25" Width="1.5" />
+    <Position X="73.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACgAAAAAAAAA=</HashCode>
       <FileName>TAEqual.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TADoubleValue" Collapsed="true">
-    <Position X="10.25" Y="3.25" Width="1.5" />
+    <Position X="15.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AmQIACAAAACAAAAAAAIQgAAIAYAIARAAAEAAMAAAAAA=</HashCode>
       <FileName>TADoubleValue.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TADoubleType" Collapsed="true">
-    <Position X="75.5" Y="3.25" Width="1.5" />
+    <Position X="77.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAIAAAAQAAAAAAAAAIAA=</HashCode>
       <FileName>TADoubleType.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TADouble" Collapsed="true">
-    <Position X="30.5" Y="6.25" Width="1.5" />
+    <Position X="35.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TADouble.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TADivision" Collapsed="true">
-    <Position X="44" Y="4.75" Width="1.5" />
+    <Position X="49" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TADivision.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TACeiling" Collapsed="true">
-    <Position X="23.75" Y="4.75" Width="1.5" />
+    <Position X="28.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TACeiling.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TABoolType" Collapsed="true">
-    <Position X="82.25" Y="3.25" Width="1.5" />
+    <Position X="79.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAAAAAAAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAIAA=</HashCode>
       <FileName>TABoolType.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TABoolBinaryOp" Collapsed="true">
-    <Position X="59.75" Y="4.75" Width="1.5" />
+    <Position X="64.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TABoolBinaryOp.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TABinaryOp" Collapsed="true">
-    <Position X="55.25" Y="3.25" Width="1.5" />
+    <Position X="60.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAoAAAAAAAQAAAAAAACgKAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TABinaryOp.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TABiggerThanEq" Collapsed="true">
-    <Position X="53" Y="6.25" Width="1.5" />
+    <Position X="58" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TABiggerThanEq.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TABiggerThan" Collapsed="true">
-    <Position X="57.5" Y="6.25" Width="1.5" />
+    <Position X="62.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TABiggerThan.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAArrayValue" Collapsed="true">
-    <Position X="3.5" Y="3.25" Width="1.5" />
+    <Position X="8.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAACAAAAAIAAAAgAYACAAAAQABACAAAgAAEAAAAAA=</HashCode>
       <FileName>TAArrayValue.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAArrayType" Collapsed="true">
-    <Position X="77.75" Y="3.25" Width="1.5" />
+    <Position X="81" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAACAAACAAAAAAAAgAAAAAAAAAAAAAIAA=</HashCode>
       <FileName>TAArrayType.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAArrayAccess" Collapsed="true">
-    <Position X="48.5" Y="4.75" Width="1.5" />
+    <Position X="53.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAAAAAAAAAgAQAAAAAAwAAAAAACAAAAAAAAAA=</HashCode>
       <FileName>TAArrayAccess.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAArray" Collapsed="true">
-    <Position X="37.25" Y="4.75" Width="1.5" />
+    <Position X="42.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAIBAAAAAAAQMBAAAIAAAAAAAAAAA=</HashCode>
       <FileName>TAArray.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TABool" Collapsed="true">
-    <Position X="32.75" Y="6.25" Width="1.5" />
+    <Position X="37.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TABool.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAPrimitive" Collapsed="true">
-    <Position X="30.5" Y="4.75" Width="1.5" />
+    <Position X="35.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAQIAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>TAPrimitive.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TANamedObj" Collapsed="true">
-    <Position X="32.75" Y="3.25" Width="1.5" />
+    <Position X="37.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TANamedObj.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TATerm" Collapsed="true">
-    <Position X="41.75" Y="1.75" Width="1.5" />
+    <Position X="46.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAoAAAAAAACAAABAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TATerm.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAValue" Collapsed="true">
-    <Position X="73.25" Y="1.75" Width="1.5" />
+    <Position X="78.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AKSIESIAhIAgACFAgAYGCAAAAYgpCRICCAEAAAAAQAA=</HashCode>
+      <HashCode>AKSoESIAhIAgAGFAgAYGCAAAAYgpCRIDCAEAAAAAQAA=</HashCode>
       <FileName>TAValue.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TABoolValue" Collapsed="true">
-    <Position X="5.75" Y="3.25" Width="1.5" />
+    <Position X="10.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAQAAgAAoAAFAIAIAAAAAAQAhCQACAAIAEAACAAA=</HashCode>
       <FileName>TABoolValue.h</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TAObj" Collapsed="true">
-    <Position X="44" Y="0.5" Width="1.5" />
+    <Position X="49" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ggAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>TAObj.h</FileName>
     </TypeIdentifier>
   </Struct>
+  <Struct Name="TAPairValue" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQgAAAAAAABAAAAAAYAAAAAAQgBACABABEAEAEAAAA=</HashCode>
+      <FileName>TAPairValue.h</FileName>
+    </TypeIdentifier>
+  </Struct>
   <Typedef Name="TAType_em" Collapsed="true">
-    <Position X="0.5" Y="4.5" Width="1.5" />
+    <Position X="5.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TAType.h</FileName>
     </TypeIdentifier>
   </Typedef>
   <Enum Name="__unnamed_enum_0150_1" Collapsed="true">
-    <Position X="0.5" Y="6.5" Width="1.5" />
+    <Position X="5.5" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAEAAAAAAEAAAAAAAAAACAAAAAAAAAQBAAAAAEAAA=</HashCode>
       <FileName>TAType.h</FileName>
