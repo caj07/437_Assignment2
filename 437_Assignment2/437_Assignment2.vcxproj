@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ConditionalOperator.h" />
+    <ClInclude Include="TAAssignmentStatement.h" />
+    <ClInclude Include="TAAtomicStatement.h" />
+    <ClInclude Include="TAConditionalOperator.h" />
     <ClInclude Include="ta.h" />
     <ClInclude Include="TAArray.h" />
     <ClInclude Include="TAArrayAccess.h" />
@@ -40,6 +42,7 @@
     <ClInclude Include="TADoubleType.h" />
     <ClInclude Include="TADoubleTypeDomain.h" />
     <ClInclude Include="TADoubleValue.h" />
+    <ClInclude Include="TAEmptyStatement.h" />
     <ClInclude Include="TAEqual.h" />
     <ClInclude Include="TAEquiv.h" />
     <ClInclude Include="TAFirst.h" />
@@ -70,6 +73,8 @@
     <ClInclude Include="TASecond.h" />
     <ClInclude Include="TASetDomain.h" />
     <ClInclude Include="TASize.h" />
+    <ClInclude Include="TAStatement.h" />
+    <ClInclude Include="TAStatementType.h" />
     <ClInclude Include="TATerm.h" />
     <ClInclude Include="TAType.h" />
     <ClInclude Include="TATypeDomain.h" />
@@ -79,18 +84,23 @@
     <ClInclude Include="TAValueBase.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConditionalOperator.cpp" />
+    <ClCompile Include="TAAssignmentStatement.cpp" />
+    <ClCompile Include="TAAtomicStatement.cpp" />
+    <ClCompile Include="TAConditionalOperator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TABool.cpp" />
     <ClCompile Include="TABoolBinaryOp.cpp" />
     <ClCompile Include="TABoolTypeDomain.cpp" />
     <ClCompile Include="TADomain.cpp" />
     <ClCompile Include="TADoubleTypeDomain.cpp" />
+    <ClCompile Include="TAEmptyStatement.cpp" />
     <ClCompile Include="TAForAll.cpp" />
     <ClCompile Include="TAForEach.cpp" />
     <ClCompile Include="TAIntTypeDomain.cpp" />
     <ClCompile Include="TAObj.cpp" />
     <ClCompile Include="TASetDomain.cpp" />
+    <ClCompile Include="TAStatement.cpp" />
+    <ClCompile Include="TAStatementType.cpp" />
     <ClCompile Include="TAType.cpp" />
     <ClCompile Include="TATypeDomain.cpp" />
     <ClCompile Include="TAValue.cpp" />

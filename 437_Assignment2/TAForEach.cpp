@@ -2,12 +2,12 @@
 #include "TAType.h"
 
 TAForEach::TAForEach() :
-	m_x(), m_domain(), m_formula()
+	TATerm(), m_x(), m_domain(), m_formula()
 {
 }
 
 TAForEach::TAForEach(TATerm * x, TADomain * domain, TAFormula * formula) :
-	m_x(x), m_domain(domain), m_formula(formula)
+	TATerm(), m_x(x), m_domain(domain), m_formula(formula)
 {
 }
 

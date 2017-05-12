@@ -1,17 +1,17 @@
-#include "ConditionalOperator.h"
+#include "TAConditionalOperator.h"
 #include "TAType.h"
 
-ConditionalOperator::ConditionalOperator() :
-	m_conditional(), m_ifTrue(), m_ifFalse()
+TAConditionalOperator::TAConditionalOperator() :
+	TATerm(), m_conditional(), m_ifTrue(), m_ifFalse()
 {
 }
 
-const TAType & ConditionalOperator::getType() const
+const TAType & TAConditionalOperator::getType() const
 {
 	return m_ifTrue->getType();
 }
 
-void ConditionalOperator::list(ostream & os) const
+void TAConditionalOperator::list(ostream & os) const
 {
 	m_conditional->list(os);
 	os << " ? ";
@@ -20,7 +20,7 @@ void ConditionalOperator::list(ostream & os) const
 	m_ifFalse->list(os);
 }
 
-TAValue & ConditionalOperator::evaluate()
+TAValue & TAConditionalOperator::evaluate()
 {
 	m_conditional->evaluate();
 	if (m_conditional->getValue().getBool()) {
@@ -36,14 +36,14 @@ TAValue & ConditionalOperator::evaluate()
 }
 
 
-ConditionalOperator::ConditionalOperator(TAFormula * conditional, TATerm * ifTrue, TATerm * ifFalse) :
-	m_conditional(conditional), m_ifTrue(ifTrue), m_ifFalse(ifFalse)
+TAConditionalOperator::TAConditionalOperator(TAFormula * conditional, TATerm * ifTrue, TATerm * ifFalse) :
+	TATerm(), m_conditional(conditional), m_ifTrue(ifTrue), m_ifFalse(ifFalse)
 {
 	if (ifTrue->getType().getTypeNumber() != ifFalse->getType().getTypeNumber()) {
 		throw std::invalid_argument("Target terms are not of the same type");
 	}
 }
 
-ConditionalOperator::~ConditionalOperator()
+TAConditionalOperator::~TAConditionalOperator()
 {
 }

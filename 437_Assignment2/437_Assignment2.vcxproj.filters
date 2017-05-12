@@ -186,7 +186,22 @@
     <ClInclude Include="TAForEach.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConditionalOperator.h">
+    <ClInclude Include="TAStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAStatementType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAConditionalOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAEmptyStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAAtomicStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAAssignmentStatement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -233,7 +248,22 @@
     <ClCompile Include="TAForEach.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConditionalOperator.cpp">
+    <ClCompile Include="TAStatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAStatementType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAConditionalOperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAEmptyStatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAAtomicStatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAAssignmentStatement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -2,12 +2,12 @@
 #include "TATerm.h"
 #include "TAFormula.h"
 
-class ConditionalOperator :
+class TAConditionalOperator :
 	public TATerm, public TAFormula
 {
 public:
-	ConditionalOperator(TAFormula * conditional, TATerm * ifTrue, TATerm * ifFalse);
-	virtual ~ConditionalOperator();
+	TAConditionalOperator(TAFormula * conditional, TATerm * ifTrue, TATerm * ifFalse);
+	virtual ~TAConditionalOperator();
 
 	// Inherited via TATerm
 	virtual const TAType & getType() const override;
@@ -15,7 +15,7 @@ public:
 	virtual TAValue & evaluate() override;
 
 protected:
-	ConditionalOperator();
+	TAConditionalOperator();
 
 private:
 	TAFormula *m_conditional;
