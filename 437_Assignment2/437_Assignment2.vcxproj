@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ConditionalOperator.h" />
     <ClInclude Include="ta.h" />
     <ClInclude Include="TAArray.h" />
     <ClInclude Include="TAArrayAccess.h" />
@@ -78,6 +79,7 @@
     <ClInclude Include="TAValueBase.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ConditionalOperator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TABool.cpp" />
     <ClCompile Include="TABoolBinaryOp.cpp" />

@@ -34,7 +34,7 @@ TAValue & TAForEach::evaluate()
 {
 	for (m_x->val = *m_domain->firstElement(); !m_domain->endOfDomain(); m_x->val = *m_domain->next()) {
 		m_formula->evaluate();
-		if (m_formula->getValue().getBool() == true) {
+		if (m_formula->getValue().getBool()) {
 			val.set(true);
 			return  val;
 		}
