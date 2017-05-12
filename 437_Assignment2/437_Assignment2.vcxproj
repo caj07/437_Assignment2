@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="TAAssignmentStatement.h" />
     <ClInclude Include="TAAtomicStatement.h" />
+    <ClInclude Include="TAConcurrentStatements.h" />
     <ClInclude Include="TAConditionalOperator.h" />
     <ClInclude Include="ta.h" />
     <ClInclude Include="TAArray.h" />
@@ -73,6 +74,7 @@
     <ClInclude Include="TAProduct.h" />
     <ClInclude Include="TARemainder.h" />
     <ClInclude Include="TASecond.h" />
+    <ClInclude Include="TASequentialStatements.h" />
     <ClInclude Include="TASetDomain.h" />
     <ClInclude Include="TASize.h" />
     <ClInclude Include="TAStatement.h" />
@@ -88,6 +90,7 @@
   <ItemGroup>
     <ClCompile Include="TAAssignmentStatement.cpp" />
     <ClCompile Include="TAAtomicStatement.cpp" />
+    <ClCompile Include="TAConcurrentStatements.cpp" />
     <ClCompile Include="TAConditionalOperator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TABool.cpp" />
@@ -102,6 +105,7 @@
     <ClCompile Include="TAIntTypeDomain.cpp" />
     <ClCompile Include="TALoopStatement.cpp" />
     <ClCompile Include="TAObj.cpp" />
+    <ClCompile Include="TASequentialStatements.cpp" />
     <ClCompile Include="TASetDomain.cpp" />
     <ClCompile Include="TAStatement.cpp" />
     <ClCompile Include="TAStatementType.cpp" />

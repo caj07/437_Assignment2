@@ -32,3 +32,12 @@ void TALoopStatement::list(ostream & os) const
 	os << " do ";
 	m_statement->list(os);
 }
+
+void TALoopStatement::concurrentEvaluate()
+{
+	evaluate();
+}
+
+void TALoopStatement::concurrentAssign()
+{
+}

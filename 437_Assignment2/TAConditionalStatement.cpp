@@ -36,3 +36,12 @@ void TAConditionalStatement::list(ostream & os) const
 	os << " else ";
 	m_ifFalse->list(os);
 }
+
+void TAConditionalStatement::concurrentEvaluate()
+{
+	evaluate();
+}
+
+void TAConditionalStatement::concurrentAssign()
+{
+}

@@ -12,6 +12,8 @@ public:
 	// Inherited via TAAtomicStatement
 	virtual void evaluate() override;
 	virtual void list(ostream & os) const override;
+	virtual void concurrentEvaluate() override;
+	virtual void concurrentAssign() override;
 
 protected:
 	TAConditionalStatement();
