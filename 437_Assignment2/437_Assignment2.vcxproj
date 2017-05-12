@@ -44,6 +44,7 @@
     <ClInclude Include="TAFirst.h" />
     <ClInclude Include="TAFloor.h" />
     <ClInclude Include="TAForAll.h" />
+    <ClInclude Include="TAForEach.h" />
     <ClInclude Include="TAFormula.h" />
     <ClInclude Include="TAImplies.h" />
     <ClInclude Include="TAInt.h" />
@@ -84,6 +85,7 @@
     <ClCompile Include="TADomain.cpp" />
     <ClCompile Include="TADoubleTypeDomain.cpp" />
     <ClCompile Include="TAForAll.cpp" />
+    <ClCompile Include="TAForEach.cpp" />
     <ClCompile Include="TAIntTypeDomain.cpp" />
     <ClCompile Include="TAObj.cpp" />
     <ClCompile Include="TASetDomain.cpp" />
