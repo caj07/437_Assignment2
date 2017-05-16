@@ -216,6 +216,24 @@
     <ClInclude Include="TAConcurrentStatements.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TAState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TATransition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TATransitionLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TAComponentType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -288,6 +306,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TAConcurrentStatements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TATransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TATransitionLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAComponentType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

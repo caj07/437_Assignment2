@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClInclude Include="TAAssignmentStatement.h" />
     <ClInclude Include="TAAtomicStatement.h" />
+    <ClInclude Include="TAComponent.h" />
+    <ClInclude Include="TAComponentType.h" />
     <ClInclude Include="TAConcurrentStatements.h" />
     <ClInclude Include="TAConditionalOperator.h" />
     <ClInclude Include="ta.h" />
@@ -70,6 +72,7 @@
     <ClInclude Include="TAPairType.h" />
     <ClInclude Include="TAPairValue.h" />
     <ClInclude Include="TAPlus.h" />
+    <ClInclude Include="TAPort.h" />
     <ClInclude Include="TAPrimitive.h" />
     <ClInclude Include="TAProduct.h" />
     <ClInclude Include="TARemainder.h" />
@@ -77,9 +80,12 @@
     <ClInclude Include="TASequentialStatements.h" />
     <ClInclude Include="TASetDomain.h" />
     <ClInclude Include="TASize.h" />
+    <ClInclude Include="TAState.h" />
     <ClInclude Include="TAStatement.h" />
     <ClInclude Include="TAStatementType.h" />
     <ClInclude Include="TATerm.h" />
+    <ClInclude Include="TATransition.h" />
+    <ClInclude Include="TATransitionLabel.h" />
     <ClInclude Include="TAType.h" />
     <ClInclude Include="TATypeDomain.h" />
     <ClInclude Include="TAUMinus.h" />
@@ -90,6 +96,8 @@
   <ItemGroup>
     <ClCompile Include="TAAssignmentStatement.cpp" />
     <ClCompile Include="TAAtomicStatement.cpp" />
+    <ClCompile Include="TAComponent.cpp" />
+    <ClCompile Include="TAComponentType.cpp" />
     <ClCompile Include="TAConcurrentStatements.cpp" />
     <ClCompile Include="TAConditionalOperator.cpp" />
     <ClCompile Include="main.cpp" />
@@ -105,10 +113,14 @@
     <ClCompile Include="TAIntTypeDomain.cpp" />
     <ClCompile Include="TALoopStatement.cpp" />
     <ClCompile Include="TAObj.cpp" />
+    <ClCompile Include="TAPort.cpp" />
     <ClCompile Include="TASequentialStatements.cpp" />
     <ClCompile Include="TASetDomain.cpp" />
+    <ClCompile Include="TAState.cpp" />
     <ClCompile Include="TAStatement.cpp" />
     <ClCompile Include="TAStatementType.cpp" />
+    <ClCompile Include="TATransition.cpp" />
+    <ClCompile Include="TATransitionLabel.cpp" />
     <ClCompile Include="TAType.cpp" />
     <ClCompile Include="TATypeDomain.cpp" />
     <ClCompile Include="TAValue.cpp" />

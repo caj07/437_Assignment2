@@ -7,7 +7,7 @@ using namespace std;
 
 typedef enum {
   TA_NONE, 
-  TA_BOOL, TA_INT, TA_DOUBLE, TA_ARRAY, TA_PAIR, TA_STATEMENT, TA_LAST
+  TA_BOOL, TA_INT, TA_DOUBLE, TA_ARRAY, TA_PAIR, TA_STATEMENT, TA_COMPONENT, TA_LAST
 } TAType_em;
 
 
