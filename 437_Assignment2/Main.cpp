@@ -158,6 +158,11 @@ int main(int argc, char ** argv) {
 	p2.list(cout);
 	p2.printState(cout);
 
+	TAArray ap("ap", p.getType(), 16);
+	cout << "array initially" << endl;
+	ap.printState(cout);
+	cout << endl;
+
 	cout << endl;
 	cout << "the type architecture program is exiting gracefully." << endl;
 
