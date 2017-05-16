@@ -24,7 +24,7 @@ public:
 		return type;
 	}
 
-	virtual void set(TAValue  v1, TAValue v2) {
+	virtual void set(TAValue & v1, TAValue & v2) {
 		values.first.set(v1);
 		values.second.set(v2);
 	}
