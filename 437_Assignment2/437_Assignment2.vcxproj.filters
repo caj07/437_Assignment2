@@ -216,6 +216,9 @@
     <ClInclude Include="TAConcurrentStatements.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TAInteraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -288,6 +291,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TAConcurrentStatements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TAInteraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
