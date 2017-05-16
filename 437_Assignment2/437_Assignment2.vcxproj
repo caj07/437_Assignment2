@@ -56,6 +56,7 @@
     <ClInclude Include="TAFormula.h" />
     <ClInclude Include="TAImplies.h" />
     <ClInclude Include="TAInt.h" />
+    <ClInclude Include="TAInteraction.h" />
     <ClInclude Include="TAIntType.h" />
     <ClInclude Include="TAIntTypeDomain.h" />
     <ClInclude Include="TAIntValue.h" />
@@ -110,6 +111,7 @@
     <ClCompile Include="TAEmptyStatement.cpp" />
     <ClCompile Include="TAForAll.cpp" />
     <ClCompile Include="TAForEach.cpp" />
+    <ClCompile Include="TAInteraction.cpp" />
     <ClCompile Include="TAIntTypeDomain.cpp" />
     <ClCompile Include="TALoopStatement.cpp" />
     <ClCompile Include="TAObj.cpp" />
