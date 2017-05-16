@@ -4,6 +4,7 @@
 #include "TADoubleType.h"
 #include "TAArrayType.h"
 #include "TAPairType.h"
+#include "TAStatementType.h"
 
 string TAType :: 
 __getTypeString(unsigned int type) {
@@ -28,6 +29,9 @@ getTypeInstance(unsigned int type) {
     case TA_DOUBLE:
       return TADoubleType :: the;
       break;
+	case TA_STATEMENT:
+		return TAStatementType::the;
+		break;
     default:
       throw 1;
       break;

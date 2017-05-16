@@ -19,6 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="TAAssignmentStatement.h" />
+    <ClInclude Include="TAAtomicStatement.h" />
+    <ClInclude Include="TAConcurrentStatements.h" />
+    <ClInclude Include="TAConditionalOperator.h" />
     <ClInclude Include="ta.h" />
     <ClInclude Include="TAArray.h" />
     <ClInclude Include="TAArrayAccess.h" />
@@ -30,17 +34,24 @@
     <ClInclude Include="TABool.h" />
     <ClInclude Include="TABoolBinaryOp.h" />
     <ClInclude Include="TABoolType.h" />
+    <ClInclude Include="TABoolTypeDomain.h" />
     <ClInclude Include="TABoolValue.h" />
     <ClInclude Include="TACeiling.h" />
+    <ClInclude Include="TAConditionalStatement.h" />
     <ClInclude Include="TADivision.h" />
     <ClInclude Include="TADomain.h" />
     <ClInclude Include="TADouble.h" />
     <ClInclude Include="TADoubleType.h" />
+    <ClInclude Include="TADoubleTypeDomain.h" />
     <ClInclude Include="TADoubleValue.h" />
+    <ClInclude Include="TAEmptyStatement.h" />
     <ClInclude Include="TAEqual.h" />
     <ClInclude Include="TAEquiv.h" />
     <ClInclude Include="TAFirst.h" />
     <ClInclude Include="TAFloor.h" />
+    <ClInclude Include="TAForAll.h" />
+    <ClInclude Include="TAForEach.h" />
+    <ClInclude Include="TAFormula.h" />
     <ClInclude Include="TAImplies.h" />
     <ClInclude Include="TAInt.h" />
     <ClInclude Include="TAIntType.h" />
@@ -50,6 +61,7 @@
     <ClInclude Include="TALessThan.h" />
     <ClInclude Include="TALessThanEq.h" />
     <ClInclude Include="TALNot.h" />
+    <ClInclude Include="TALoopStatement.h" />
     <ClInclude Include="TALOr.h" />
     <ClInclude Include="TAMinus.h" />
     <ClInclude Include="TANamedObj.h" />
@@ -62,8 +74,11 @@
     <ClInclude Include="TAProduct.h" />
     <ClInclude Include="TARemainder.h" />
     <ClInclude Include="TASecond.h" />
+    <ClInclude Include="TASequentialStatements.h" />
     <ClInclude Include="TASetDomain.h" />
     <ClInclude Include="TASize.h" />
+    <ClInclude Include="TAStatement.h" />
+    <ClInclude Include="TAStatementType.h" />
     <ClInclude Include="TATerm.h" />
     <ClInclude Include="TAType.h" />
     <ClInclude Include="TATypeDomain.h" />
@@ -73,14 +88,33 @@
     <ClInclude Include="TAValueBase.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="TAAssignmentStatement.cpp" />
+    <ClCompile Include="TAAtomicStatement.cpp" />
+    <ClCompile Include="TAConcurrentStatements.cpp" />
+    <ClCompile Include="TAConditionalOperator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TABool.cpp" />
+    <ClCompile Include="TABoolBinaryOp.cpp" />
+    <ClCompile Include="TABoolTypeDomain.cpp" />
+    <ClCompile Include="TAConditionalStatement.cpp" />
     <ClCompile Include="TADomain.cpp" />
+    <ClCompile Include="TADoubleTypeDomain.cpp" />
+    <ClCompile Include="TAEmptyStatement.cpp" />
+    <ClCompile Include="TAForAll.cpp" />
+    <ClCompile Include="TAForEach.cpp" />
     <ClCompile Include="TAIntTypeDomain.cpp" />
+    <ClCompile Include="TALoopStatement.cpp" />
     <ClCompile Include="TAObj.cpp" />
+    <ClCompile Include="TASequentialStatements.cpp" />
     <ClCompile Include="TASetDomain.cpp" />
+    <ClCompile Include="TAStatement.cpp" />
+    <ClCompile Include="TAStatementType.cpp" />
     <ClCompile Include="TAType.cpp" />
     <ClCompile Include="TATypeDomain.cpp" />
     <ClCompile Include="TAValue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{00AA69F7-9488-409E-BC16-B72A508A5603}</ProjectGuid>
@@ -141,6 +175,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
