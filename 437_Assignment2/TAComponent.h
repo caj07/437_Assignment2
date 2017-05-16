@@ -13,8 +13,8 @@ class TAComponent :
 public:
 	TAComponent(const std::vector<TAState *> & states, TAState * initialState, const std::vector<TAPort *> & ports = std::vector<TAPort *>(),
 		const std::vector<TATransition *> & transitions = std::vector<TATransition *>(),
-		const std::vector<TATransitionLabel *> & transitionLabels = std::vector<TATransitionLabel *>(), const std::unordered_map<TATransition *,
-		TATransitionLabel *> & transitionMap = std::unordered_map<TATransition *, TATransitionLabel *>());
+		const std::vector<TATransitionLabel *> & transitionLabels = std::vector<TATransitionLabel *>(), 
+		const std::unordered_map<TATransition *, std::vector<TATransitionLabel *>> & transitionMap = std::unordered_map<TATransition *, std::vector<TATransitionLabel *>>());
 	TAComponent(const TAComponent & other);
 	virtual ~TAComponent();
 
@@ -47,7 +47,7 @@ private:
 	std::vector<TAPort *> m_ports;
 	std::vector<TATransition *> m_transitions;
 	std::vector<TATransitionLabel *> m_transitionLabels;
-	std::unordered_map<TATransition *, TATransitionLabel *> m_transitionMap;
+	std::unordered_map<TATransition *, std::vector<TATransitionLabel *>> m_transitionMap;
 
 	bool checkTransition(TATransition * transition);
 	bool checkTransitionLabel(TATransitionLabel * transitionLabel);

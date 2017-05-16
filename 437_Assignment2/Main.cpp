@@ -1,9 +1,10 @@
 #include <iostream> 
+#include <ctime>
 #include "ta.h"
 using namespace std;
 
 int main(int argc, char ** argv) {
-
+	srand(static_cast<unsigned int>(time(0)));
 	cout << "welcome to the type architecture program." << endl;
 
 	cout << "declaring and setting primitive variable." << endl;
