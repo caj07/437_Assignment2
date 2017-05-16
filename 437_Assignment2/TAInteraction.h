@@ -16,8 +16,10 @@ public:
 	void addComponent(TAComponent * component, TAPort* port);
 	void addGuard(TAFormula * guard);
 	void addAction(TAStatement * statement);
+	std::vector<std::pair<TAComponent*, TAPort*>> getPairs();
 
-	void list();
+
+	void list(ostream & os);
 
 	bool isReadyForExecution();
 

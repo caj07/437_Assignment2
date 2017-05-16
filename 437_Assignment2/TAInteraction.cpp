@@ -1,6 +1,6 @@
 #include "TAInteraction.h"
 
-TAInteraction::TAInteraction() :m_components()
+TAInteraction::TAInteraction() :m_pairs()
 {
 }
 
@@ -33,12 +33,17 @@ void TAInteraction::addAction(TAStatement * statement)
 	m_action = statement;
 }
 
+std::vector<std::pair<TAComponent*, TAPort*>> TAInteraction::getPairs()
+{
+	return m_pairs;
+}
+
 void TAInteraction::list(ostream & os)
 {
-	os << "Interaction{Components:";
+	os << "Interaction{";
 	for (std::vector<std::pair<TAComponent*, TAPort*>>::iterator it = m_pairs.begin();it != m_pairs.end();++it)
 	{
-		(*it)->list(os);
+		it->first->list(os);
 		std::cout << ", ";
 	}
 	os << ". Guard:";
@@ -56,9 +61,9 @@ bool TAInteraction::isReadyForExecution()
 		return false;
 	}
 
-	for (std::vector<TAComponent*>::iterator it = m_components.begin();it != m_components.end();++it)
+	for (std::vector<std::pair<TAComponent*, TAPort*>>::iterator it = m_pairs.begin();it != m_pairs.end();++it)
 	{
-		if (!(*it)->isReady())
+		if (!it->first->isReady(it->second))
 		{
 			return false;
 		}
@@ -72,9 +77,9 @@ void TAInteraction::evaluate()
 	if (isReadyForExecution())
 	{
 		m_action->evaluate();
-		for (std::vector<TAComponent*>::iterator it = m_components.begin();it != m_components.end();++it)
+		for (std::vector<std::pair<TAComponent*, TAPort*>>::iterator it = m_pairs.begin();it != m_pairs.end();++it)
 		{
-			(*it)->evaluate();
+			it->first->evaluate();
 		}
 	}
 }

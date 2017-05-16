@@ -84,6 +84,7 @@
     <ClInclude Include="TAState.h" />
     <ClInclude Include="TAStatement.h" />
     <ClInclude Include="TAStatementType.h" />
+    <ClInclude Include="TASystem.h" />
     <ClInclude Include="TATerm.h" />
     <ClInclude Include="TATransition.h" />
     <ClInclude Include="TATransitionLabel.h" />
@@ -121,6 +122,7 @@
     <ClCompile Include="TAState.cpp" />
     <ClCompile Include="TAStatement.cpp" />
     <ClCompile Include="TAStatementType.cpp" />
+    <ClCompile Include="TASystem.cpp" />
     <ClCompile Include="TATransition.cpp" />
     <ClCompile Include="TATransitionLabel.cpp" />
     <ClCompile Include="TAType.cpp" />
