@@ -23,4 +23,5 @@ private:
 	std::vector<TAComponent*> m_components;
 	std::vector<TAInteraction*> m_interactions;
 	std::vector<TAInteraction*> m_nonConflictingInteractions;
+	bool deadlock;
 };
