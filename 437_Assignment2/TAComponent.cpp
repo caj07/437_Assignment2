@@ -132,10 +132,43 @@ void TAComponent::mapTransitionToTransitionLabel(TATransition * transition, TATr
 
 void TAComponent::list(ostream & os)
 {
+	std::cout << "Component{ states: ";
+	for (TAState * state : m_states)
+	{
+		state->list(os);
+		os << " ";
+	}
+	std::cout << "; current State: ";
+	m_currentState->list(os);
+
+	std::cout << "; ports: ";
+	for (TAPort * port : m_ports)
+	{
+		port->list(os);
+		os << " ";
+	}
+	std::cout << "; transitions: ";
+	for (TATransition * transition : m_transitions)
+	{
+		transition->list(os);
+		os << " ";
+	}
+	std::cout << "; transition labels: ";
+	for (TATransitionLabel * transitionLabel : m_transitionLabels)
+	{
+		transitionLabel->list(os);
+		os << " ";
+	}
+	os << "}" << std::endl;
 }
 
 void TAComponent::printVariableNames(ostream & os)
 {
+	for (std::vector<TATransitionLabel *>::const_iterator it = m_transitionLabels.begin(); it != m_transitionLabels.end(); ++it)
+	{
+		(*it)->getGuard()->list(os);
+		(*it)->getAction()->list(os);
+	}
 }
 
 void TAComponent::printState(ostream & os)

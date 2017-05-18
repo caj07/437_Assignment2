@@ -30,3 +30,14 @@ TAStatement * TATransitionLabel::getAction() const
 {
 	return m_action;
 }
+
+void TATransitionLabel::list(std::ostream & os)
+{
+	os << "TransitionLabel:{";
+	m_port->list(os);
+	os << ",";
+	m_guard->list(os);
+	os << ",";
+	m_action->list(os);
+	os << "}";
+}

@@ -25,3 +25,12 @@ TAState * TATransition::getNext() const
 {
 	return m_next;
 }
+
+void TATransition::list(std::ostream & os)
+{
+	os << "Transition:{";
+	m_initial->list(os);
+	os << ",";
+	m_next->list(os);
+	os << "}";
+}

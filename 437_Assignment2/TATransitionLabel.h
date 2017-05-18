@@ -3,6 +3,7 @@
 #include "TAPort.h"
 #include "TAFormula.h"
 #include "TAStatement.h"
+#include <ostream>
 
 class TATransitionLabel :
 	public TAObj
@@ -14,6 +15,8 @@ public:
 	TAPort * getPort() const;
 	TAFormula * getGuard() const;
 	TAStatement * getAction() const;
+
+	void list(std::ostream & os);
 
 protected:
 	TATransitionLabel();

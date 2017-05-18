@@ -1,6 +1,7 @@
 #pragma once
 #include "TAObj.h"
 #include "TAState.h"
+#include <ostream>
 
 class TATransition :
 	public TAObj
@@ -10,6 +11,8 @@ public:
 	~TATransition();
 	TAState * getInitial() const;
 	TAState * getNext() const;
+
+	void list(std::ostream & os);
 
 protected:
 	TATransition();
