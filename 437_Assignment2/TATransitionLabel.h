@@ -25,5 +25,8 @@ private:
 	TAPort * m_port;
 	TAFormula * m_guard;
 	TAStatement * m_action;
+
+	// Inherited via TAObj
+	virtual const TAType & getType() const override;
 };
 

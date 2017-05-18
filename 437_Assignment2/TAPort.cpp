@@ -1,9 +1,15 @@
 #include "TAPort.h"
+#include "TAType.h"
 #include <ostream>
 
 
 TAPort::TAPort() : TAObj()
 {
+}
+
+const TAType & TAPort::getType() const
+{
+	return TAType::getTypeInstance(TA_PORT);
 }
 
 

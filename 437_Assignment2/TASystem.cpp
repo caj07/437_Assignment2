@@ -1,4 +1,5 @@
 #include "TASystem.h"
+#include"TAType.h"
 #include <algorithm>
 
 TASystem::TASystem() : m_components(), m_interactions(), deadlock(false)
@@ -123,4 +124,9 @@ void TASystem::evaluate(int numberOfSteps)
 			return;
 		}
 	}
+}
+
+const TAType & TASystem::getType() const
+{
+	return TAType::getTypeInstance(TA_SYSTEM);
 }

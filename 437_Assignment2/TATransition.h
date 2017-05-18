@@ -19,5 +19,8 @@ protected:
 
 private:
 	TAState *m_initial, *m_next;
+
+	// Inherited via TAObj
+	virtual const TAType & getType() const override;
 };
 

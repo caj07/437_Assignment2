@@ -6,6 +6,12 @@
 #include "TAPairType.h"
 #include "TAStatementType.h"
 #include "TAComponentType.h"
+#include "TAInteractionType.h"
+#include "TASystemType.h"
+#include "TAStateType.h"
+#include "TAPortType.h"
+#include "TATransitionType.h"
+#include "TATransitionLabelType.h"
 
 string TAType :: 
 __getTypeString(unsigned int type) {
@@ -35,6 +41,25 @@ getTypeInstance(unsigned int type) {
 		break;
 	case TA_COMPONENT:
 		return TAComponentType::the;
+		break;
+	case TA_INTERACTION:
+		return TAInteractionType::the;
+		break;
+	case TA_SYSTEM:
+		return TASystemType::the;
+		break;
+	case TA_STATE:
+		return TAStateType::the;
+		break;
+	case TA_PORT:
+		return TAPortType::the;
+		break;
+	case TA_TRANSITION:
+		return TATransitionType::the;
+		break;
+	case TA_TRANSITIONLABEL:
+		return TATransitionLabelType::the;
+		break;
     default:
       throw 1;
       break;

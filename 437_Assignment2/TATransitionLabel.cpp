@@ -1,9 +1,14 @@
 #include "TATransitionLabel.h"
-
+#include "TAType.h"
 
 
 TATransitionLabel::TATransitionLabel() : TAObj(), m_port(), m_guard(), m_action()
 {
+}
+
+const TAType & TATransitionLabel::getType() const
+{
+	return TAType::getTypeInstance(TA_TRANSITIONLABEL);
 }
 
 

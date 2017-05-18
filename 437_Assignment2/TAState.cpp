@@ -1,9 +1,14 @@
 #include "TAState.h"
-
+#include "TAType.h"
 
 
 TAState::TAState() : TAObj()
 {
+}
+
+const TAType & TAState::getType() const
+{
+	return TAType::getTypeInstance(TA_STATE);
 }
 
 

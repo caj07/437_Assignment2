@@ -6,6 +6,7 @@
 
 class TASystem : public TAObj
 {
+public:
 	TASystem();
 	~TASystem();
 
@@ -24,4 +25,7 @@ private:
 	std::vector<TAInteraction*> m_interactions;
 	std::vector<TAInteraction*> m_nonConflictingInteractions;
 	bool deadlock;
+
+	// Inherited via TAObj
+	virtual const TAType & getType() const override;
 };

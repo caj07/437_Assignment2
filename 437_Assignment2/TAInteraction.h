@@ -25,6 +25,8 @@ public:
 
 	void evaluate();
 
+	TAType & getType() const override;
+
 private:
 	std::vector<std::pair<TAComponent*,TAPort*>> m_pairs;
 	TAFormula * m_guard;

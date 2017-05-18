@@ -1,9 +1,14 @@
 #include "TATransition.h"
-
+#include "TAType.h"
 
 
 TATransition::TATransition() : TAObj(), m_initial(nullptr), m_next(nullptr)
 {
+}
+
+const TAType & TATransition::getType() const
+{
+	return TAType::getTypeInstance(TA_TRANSITION);
 }
 
 

@@ -1,4 +1,5 @@
 #include "TAInteraction.h"
+#include "TAType.h"
 
 TAInteraction::TAInteraction() :m_pairs()
 {
@@ -82,4 +83,9 @@ void TAInteraction::evaluate()
 			it->first->evaluate();
 		}
 	}
+}
+
+TAType & TAInteraction::getType() const
+{
+	return TAType::getTypeInstance(TA_INTERACTION);
 }

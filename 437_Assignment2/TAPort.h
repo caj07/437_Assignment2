@@ -17,5 +17,8 @@ protected:
 
 private:
 	std::string m_name;
+
+	// Inherited via TAObj
+	virtual const TAType & getType() const override;
 };
 
